@@ -200,6 +200,19 @@
  /* small devices */
  
  @media screen and (max-width: 600px) {
+    .card__two-date {
+        width: 70%;
+        
+    }
+
+    .card__two-position {
+        width: 80%;
+    }
+    
+    .card__two-company {
+        width: 90%;
+    }
+    
     .card__three {
         width: 91%;
     }
