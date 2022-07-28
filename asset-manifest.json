@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.43b0677c.css",
+    "main.js": "/MyPortfolio/static/js/main.e2ad0c79.js",
+    "static/media/vhousing.PNG": "/MyPortfolio/static/media/vhousing.25abd345c5f5732a2f20.PNG",
+    "static/media/jsp.PNG": "/MyPortfolio/static/media/jsp.e567d30d410efe750a9d.PNG",
+    "static/media/journal.pdf": "/MyPortfolio/static/media/journal.f49a0ff906b6149e113b.pdf",
+    "static/media/finvine.PNG": "/MyPortfolio/static/media/finvine.0a82b75d532a0c935d39.PNG",
+    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.35c9e18fdb32a9240a94.pdf",
+    "static/media/sunnydias.jpg": "/MyPortfolio/static/media/sunnydias.bde875be40799ad31326.jpg",
+    "static/media/texture.jpg": "/MyPortfolio/static/media/texture.22fdaabf89e64b48e368.jpg",
+    "static/media/forest.png": "/MyPortfolio/static/media/forest.50637ec0bde10f3bbfed.png",
+    "static/media/10x.jpg": "/MyPortfolio/static/media/10x.7aa1039103d0e9642366.jpg",
+    "static/media/appreciation.pdf": "/MyPortfolio/static/media/appreciation.a6d7aea4f699f2018535.pdf",
+    "static/media/az-104.png": "/MyPortfolio/static/media/az-104.84267b6716d879cdad28.png",
+    "static/media/az-900.png": "/MyPortfolio/static/media/az-900.dd49b3c54249c87368c6.png",
+    "static/media/gcp.png": "/MyPortfolio/static/media/gcp.fcf505213a8be4034c9f.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.43b0677c.css.map": "/MyPortfolio/static/css/main.43b0677c.css.map",
+    "main.e2ad0c79.js.map": "/MyPortfolio/static/js/main.e2ad0c79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43b0677c.css",
+    "static/js/main.e2ad0c79.js"
+  ]
+}
