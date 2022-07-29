@@ -33,8 +33,8 @@ export const Achievement = () => {
                 <div className="achievement__certification">
                     <h3>Certifications</h3>
                     <div className='certification__content'>
-                    <Card type="four" heading="AZ-900" image={AZ900} button_text="Verify" link="https://www.credly.com/badges/a6086fab-81eb-4d5c-9ee2-ff02cbdc3f23" />
-                    <Card type="four" heading="AZ-104" image={AZ104} button_text="Verify" link="https://www.credly.com/badges/3fc05b6f-de3d-46c1-b017-1cd73b69e2c0" />
+                        <Card type="four" heading="AZ-900" image={AZ900} button_text="Verify" link="https://www.credly.com/badges/a6086fab-81eb-4d5c-9ee2-ff02cbdc3f23" />
+                        <Card type="four" heading="AZ-104" image={AZ104} button_text="Verify" link="https://www.credly.com/badges/3fc05b6f-de3d-46c1-b017-1cd73b69e2c0" />
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ export const Achievement = () => {
                 <div className="achievement__other">
                     <h3>Other Achievements</h3>
                     <div className='other__content'>
-                    <Card type="four" heading="Google Cloud Platform Cloud Skills Boost" image={GCP} button_text="View Badges" link="https://partner.cloudskillsboost.google/public_profiles/e5b5f166-d152-41b9-a125-5ea8b6e9ea33" />
+                        <Card type="four" heading="Google Cloud Platform Cloud Skills Boost" image={GCP} button_text="View Badges" link="https://partner.cloudskillsboost.google/public_profiles/e5b5f166-d152-41b9-a125-5ea8b6e9ea33" />
                     </div>
                 </div>
             </div>

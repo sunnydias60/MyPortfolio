@@ -1,13 +1,13 @@
 button {
-	border: none;
+    border: none;
     background-color: white;
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }
 
 .container.contact__container {
@@ -42,7 +42,7 @@ button {
     margin-bottom: -0.5rem;
 }
 
-.contact__option h4{
+.contact__option h4 {
     margin-bottom: 0.5rem;
 }
 

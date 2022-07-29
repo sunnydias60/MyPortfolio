@@ -96,14 +96,14 @@
         grid-template-columns: 1fr;
         gap: 2rem;
     }
- }
- 
- /* small devices */
- 
- @media screen and (max-width: 600px) {
+}
+
+/* small devices */
+
+@media screen and (max-width: 600px) {
     .achievement__container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-   
-  }
+
+}

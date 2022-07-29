@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import About_img from '../../assets/forest.png'
-import {MdSportsCricket} from 'react-icons/md'
-import {SiGumtree} from 'react-icons/si'
+import { MdSportsCricket } from 'react-icons/md'
+import { SiGumtree } from 'react-icons/si'
 import Education from '../education/Education'
 import { Card } from '../card/Card'
 
@@ -24,49 +24,34 @@ const About = () => {
 
         <div className="about__content">
           <div className="career__objective">
-          <h3>My Career Objective</h3>
-          <h5>To obtain a challenging position in an organisation, in which I am able to utilize my skills and abilities.</h5>
-        
+            <h3>My Career Objective</h3>
+            <h5>To obtain a challenging position in an organisation, in which I am able to utilize my skills and abilities.</h5>
+
           </div>
           <div className="other__activities">
-          <h3>Other Activities</h3>
-          <div className="about__cards">
-          <Card type="one" icon={MdSportsCricket} heading="Sports" points_items={["Cricket", "Chess", "Volleyball", "Puzzle"]}/>
-          <Card type="one" icon={SiGumtree} heading="Social Work" points_items={["NSS (National Service Scheme) member for 2 years.", "Beach clean up"]}/>
-            
-            {/* <article className="about__card">
-              <FaAward className='about__icon' />
-              <h5>Projects</h5>
-              <small>5</small>
-            </article> */}
+            <h3>Other Activities</h3>
+            <div className="about__cards">
+              <Card type="one" icon={MdSportsCricket} heading="Sports" points_items={["Cricket", "Chess", "Volleyball", "Puzzle"]} />
+              <Card type="one" icon={SiGumtree} heading="Social Work" points_items={["NSS (National Service Scheme) member for 2 years.", "Beach clean up"]} />
+            </div>
           </div>
-          </div>
-          
-          
-          {/* <a href="#contact" className='btn btn-primary'>Lets talk</a> */}
         </div>
 
         <div></div>
 
         <div className='about__education'>
-        <Education />
+          <Education />
         </div>
 
-{/* for mobile and tab */}
+        {/* for mobile and tab */}
 
         <div className="other__activities-mobile">
           <h3>Other Activities</h3>
           <div className="about__cards">
-          <Card type="one" icon={MdSportsCricket} heading="Sports" points_items={["Cricket", "Chess", "Volleyball", "Puzzle"]}/>
-          <Card type="one" icon={SiGumtree} heading="Social Work" points_items={["NSS (National Service Scheme) member for 2 years.", "Beach clean up"]}/>
-            
-            {/* <article className="about__card">
-              <FaAward className='about__icon' />
-              <h5>Projects</h5>
-              <small>5</small>
-            </article> */}
+            <Card type="one" icon={MdSportsCricket} heading="Sports" points_items={["Cricket", "Chess", "Volleyball", "Puzzle"]} />
+            <Card type="one" icon={SiGumtree} heading="Social Work" points_items={["NSS (National Service Scheme) member for 2 years.", "Beach clean up"]} />
           </div>
-          </div>
+        </div>
       </div>
     </section>
   )

@@ -1,6 +1,5 @@
 import React from 'react'
 import './card.css'
-import { BiCheck } from 'react-icons/bi'
 import { BsPatchCheckFill } from 'react-icons/bs'
 import CustomButton from '../button/CustomButton'
 

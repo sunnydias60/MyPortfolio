@@ -40,7 +40,7 @@
     padding: 1px;
 }
 
-.card__one ul { 
+.card__one ul {
     margin-left: 20px;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .card__one li {
-    text-align: left;   
+    text-align: left;
 }
 
 .card__one li::marker {
@@ -117,8 +117,8 @@
 .text-ul {
     margin-top: 0.8rem;
     border-radius: 0.5rem;
-    padding: 1px; 
-    text-align: left; 
+    padding: 1px;
+    text-align: left;
     margin-left: 20px;
 }
 
@@ -165,15 +165,15 @@
 }
 
 .card__three:hover .card__three-head h3 {
-    color:black;
+    color: black;
     transition: var(--transition);
 }
 
-.card__three-list{
+.card__three-list {
     padding: 1rem;
 }
 
-.card__three-list li{
+.card__three-list li {
     display: flex;
     gap: 1rem;
     /* margin-bottom: 0.8rem; */
@@ -193,57 +193,55 @@
     color: var(--color-bg-variant);
 }
 
-@media screen and (max-width: 1024px) {
-   
- }
- 
- /* small devices */
- 
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {}
+
+/* small devices */
+
+@media screen and (max-width: 600px) {
     .card__two-date {
         width: 70%;
-        
+
     }
 
     .card__two-position {
         width: 80%;
     }
-    
+
     .card__two-company {
         width: 90%;
     }
-    
+
     .card__three {
         width: 91%;
     }
 
     .card__three-head {
         padding: 0.3rem;
-    border-radius: 0 0 1rem 1rem;
+        border-radius: 0 0 1rem 1rem;
 
     }
 
     .card__three-head h3 {
-    font-size: 0.8rem;
+        font-size: 0.8rem;
     }
 
-    .card__three-list{
-        padding: 0.9rem;
+    .card__three-list {
+        padding: 0.5rem 0.5rem 1rem;
     }
 
-    .card__three-list li{
-        font-size: 0.7rem;
+    .card__three-list li {
+        font-size: 0.8rem;
     }
 
     .card__three-list-icon {
         margin-top: 5px;
-        font-size: 9px;
+        font-size: 11px;
     }
 
-  
-  }
 
-  /* card four  */
+}
+
+/* card four  */
 
 .card__four {
     padding: 0.3rem;

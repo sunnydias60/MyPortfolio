@@ -16,13 +16,13 @@
     .skill {
         height: auto;
     }
- }
- 
- /* small devices */
- 
- @media screen and (max-width: 600px) {
+}
+
+/* small devices */
+
+@media screen and (max-width: 600px) {
     .skill__container {
-        grid-template-columns: 50% 50%;
-        /* gap: 1rem; */
+        grid-template-columns: 48% 55%;
+        gap: 0.5rem;
     }
-  }
+}

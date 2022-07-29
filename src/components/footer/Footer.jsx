@@ -1,15 +1,15 @@
 import React from 'react'
 import './footer.css'
-import {BsLinkedin} from 'react-icons/bs'
-import {BsGithub} from 'react-icons/bs'
-import {GrInstagram} from 'react-icons/gr'
+import { BsLinkedin } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
+import { GrInstagram } from 'react-icons/gr'
 import LOGO from '../../assets/sd601.png'
 
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#"><img src={LOGO} alt="LOGO" className="footer__logo"/></a>
+      <a href="#"><img src={LOGO} alt="LOGO" className="footer__logo" /></a>
       {/* <a href="#" className="footer__logo">sun</a> */}
       <ul className="permalinks">
         <li><a href="#">Home</a></li>

@@ -5,8 +5,9 @@ header {
 }
 
 h4 {
-    margin-top: 1rem ;
+    margin-top: 1rem;
 }
+
 .particles-bg-canvas-self {
     background: #000;
 }
@@ -58,14 +59,14 @@ h4 {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
+    width: 20rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 10rem);
     margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 2.5rem 2.5rem 0rem 2.5rem;
+    padding: 2rem 2rem 0rem 2rem;
 }
 
 .me__image {
@@ -92,14 +93,14 @@ h4 {
 
     .me {
         background: linear-gradient(var(--color-primary), transparent);
-        width: 22rem;
+        width: 20rem;
         height: 30rem;
         position: absolute;
-        left: calc(50% - 11rem);
-        margin-top: 5rem;
+        left: calc(50% - 10rem);
+        margin-top: 8rem;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
-        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        padding: 2rem;
     }
 
     .particles-bg-canvas-self {
@@ -107,20 +108,27 @@ h4 {
     }
 
     .logo {
-        margin-top: 2rem;
+        margin-top: 6rem;
         width: 25%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
+
+    .scroll__down {
+        bottom: 12rem;
+    }
+
+    .header__socials {
+        bottom: 8rem;
+    }
+
 }
 
 /* small devices */
 
 @media screen and (max-width: 600px) {
     header {
-        
         height: 100vh;
     }
 
@@ -130,17 +138,21 @@ h4 {
     }
 
     .logo {
-        margin-top: 5rem;
+        margin-top: 7rem;
         width: 35%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
     .me {
+        width: 20rem;
+        left: calc(50% - 10rem);
         height: 40rem;
-        margin-top: 7rem;
-        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        margin-top: 10rem;
+        padding: 2rem;
     }
+
     .particles-bg-canvas-self {
         background: #000;
         height: 100vh !important;
@@ -152,17 +164,22 @@ h4 {
     header {
         height: 100vh;
     }
+
     .me {
-        margin-top: 2rem;
-        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        margin-top: 4rem;
+        padding: 2rem;
+        width: 18rem;
+        left: calc(50% - 9rem);
+        height: 40rem;
+        padding: 2rem;
     }
 
     .logo {
-        margin-top: 1rem;
+        margin-top: 5rem;
         width: 35%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
+
 }

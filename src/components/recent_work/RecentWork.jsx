@@ -52,7 +52,7 @@ const RecentWork = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="recent_work__content">
-                <p>{content}</p>
+                  <p>{content}</p>
                 </div>
                 <div className="recent_work__item-cta">
                   <a href={link} className="btn btn-primary" target='_blank'>View</a>

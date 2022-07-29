@@ -39,7 +39,6 @@
     .experience__container {
         grid-template-columns: 100%;
         gap: 4rem;
-
     }
 
     .line {

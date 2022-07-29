@@ -9,9 +9,9 @@ const Skills = () => {
     {
       heading: "Programming Language",
       points_items: [
-        "C", 
-        "C++", 
-        "Python", 
+        "C",
+        "C++",
+        "Python",
         "SQL"
       ]
     },
@@ -72,7 +72,7 @@ const Skills = () => {
     {
       heading: "Other Skills",
       points_items: [
-        "Good Communication skills",
+        "Skilled Communication",
         "Quick learner",
         "Leadership Quality",
       ]
@@ -87,12 +87,12 @@ const Skills = () => {
         {
           data.map(({ index, heading, points_items }) => {
             return (
-              <Card type="three" key={index} heading={heading} points_items={points_items} />
+              <div>
+                <Card type="three" key={index} heading={heading} points_items={points_items} />
+              </div>
             )
           })
         }
-
-
       </div>
     </section>
   )
