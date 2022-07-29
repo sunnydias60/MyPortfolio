@@ -31,7 +31,7 @@ const Header = () => {
         <h5 className="text-light">IT Engineer | Developer | CloudOps</h5>
         <div className="cta">
           <CustomButton type="two" link={RESUME} text="Download CV" />
-          <CustomButton type="one" link="#contact" text="Lets Talk" />
+          <CustomButton type="one" link="#contact" target="no" text="Lets Talk" />
         </div>
         <HeaderSocials />
         <div className="me">

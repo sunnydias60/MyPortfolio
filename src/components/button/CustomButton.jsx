@@ -1,18 +1,19 @@
 import React from 'react'
 
-export default function CustomButton({ type, link, text }) {
-
+export default function CustomButton({ type, link, text, target }) {
+    const target_value = target == "no" ? "": "_blank"
+    
     if (type == "one") {
         return (
             <div>
-                <a href={link} target="_blank" className="btn btn-primary">{text}</a>
+                <a href={link} target={target_value} className="btn btn-primary">{text}</a>
             </div>
         )
     }
     else if (type == "two") {
         return (
             <div>
-                <a href={link} target="_blank" className="btn">{text}</a>
+                <a href={link} target={target_value} className="btn">{text}</a>
             </div>
         )
     }
